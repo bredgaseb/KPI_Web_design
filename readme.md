@@ -8,5 +8,6 @@
 Обрана тематика: **Облік робочого часу** (запуск таймера, призупинення/продовження, зупинка, збереження назви, часу початку і завершення сеансу роботи).
 
 ## Посилання на звіт
-* **GitHub Pages (Сайт):** 
-* **Звіт (Google Drive):**  
+* **GitHub Pages (Сайт):** https://bredgaseb.github.io/KPI_Web_design/ 
+* **Звіт:** https://docs.google.com/document/d/1FS1JWbpfXumLyZi4N1YkpYRd2KHtAh7u2p4xpU6nuYM/edit?tab=t.0
+* **Контакт у Telegram:** https://t.me/nikitumba1
