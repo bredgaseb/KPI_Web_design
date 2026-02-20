@@ -1,0 +1,4 @@
+.vscode/*
+!.vscode/.gitkeep
+.DS_Store
+#its static so no reason to include __pycache__ and *.pyc files etc

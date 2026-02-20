@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профіль - TimeTracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen font-sans">
+
+    <header class="bg-white border-b border-slate-200 shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600 mb-4 sm:mb-0 tracking-tight">TimeTracker</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center space-x-4 sm:space-x-6 text-sm font-medium">
+                    <li><a href="index.html" class="text-slate-500 hover:text-blue-600 transition">Таймер</a></li>
+                    <li><a href="profile.html" class="text-blue-600 border-b-2 border-blue-600 pb-1">Профіль</a></li>
+                    <li><a href="about.html" class="text-slate-500 hover:text-blue-600 transition">Про додаток</a></li>
+                    <li><a href="login.html" class="text-slate-500 hover:text-blue-600 transition">Вихід</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-10 flex justify-center items-start pt-16">
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200 w-full max-w-2xl">
+            <div class="flex items-center space-x-5 mb-8 pb-6 border-b border-slate-100">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-2xl font-bold text-blue-600">І</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800">Ім'я Користувача</h2>
+                    <p class="text-slate-500 text-sm font-medium">Співробітник компанії</p>
+                </div>
+            </div>
+            
+            <div class="overflow-x-auto rounded-lg border border-slate-200">
+                <table class="w-full text-left border-collapse bg-white">
+                    <tbody>
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+                            <th class="py-4 px-5 font-semibold text-slate-600 w-1/3 bg-slate-50">Ім'я</th>
+                            <td class="py-4 px-5 text-slate-800">Ім'я Користувача</td>
+                        </tr>
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+                            <th class="py-4 px-5 font-semibold text-slate-600 bg-slate-50">Email</th>
+                            <td class="py-4 px-5 text-slate-800">employee@company.com</td>
+                        </tr>
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+                            <th class="py-4 px-5 font-semibold text-slate-600 bg-slate-50">Стать</th>
+                            <td class="py-4 px-5 text-slate-800">Чоловіча</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50 transition">
+                            <th class="py-4 px-5 font-semibold text-slate-600 bg-slate-50">Дата народження</th>
+                            <td class="py-4 px-5 text-slate-800">01.01.1995</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white text-slate-500 py-6 mt-auto border-t border-slate-200">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2026 TimeTracker.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
